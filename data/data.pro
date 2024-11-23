@@ -11,6 +11,6 @@ pkgconfig.path = $$[QT_INSTALL_LIBS]/pkgconfig
 services.path = /usr/lib/systemd/user/
 
 # Apply version to the pkgconfig files before installing
-pkgconfig.commands = 'sed -i "s/Version:.*/Version: $$VERSION/" pkgconfig/*.pc'
+pkgconfig.commands = 'sed -i "" "s/Version:.*/Version: $$VERSION/" pkgconfig/*.pc'
 
 INSTALLS += mkspecs pkgconfig services

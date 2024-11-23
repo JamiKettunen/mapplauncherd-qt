@@ -6,7 +6,7 @@ QT += quick core-private
 target.path = $$[QT_INSTALL_LIBS]
 
 headers.files = MDeclarativeCache mdeclarativecache.h
-headers.path = $$[QT_INSTALL_PREFIX]/include/mdeclarativecache5/
+headers.path = $$[QT_INSTALL_PREFIX]/include/mdeclarativecache/
 
 INSTALLS += target headers
 

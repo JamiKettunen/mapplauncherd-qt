@@ -3,4 +3,4 @@
 
 CONFIG += link_pkgconfig
 
-PKGCONFIG += qt5-boostable
+PKGCONFIG += qt$$QT_MAJOR_VERSION-boostable

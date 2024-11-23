@@ -1,5 +1,5 @@
 TEMPLATE = lib
-TARGET = mdeclarativecache5
+TARGET = mdeclarativecache$$QT_MAJOR_VERSION
 VERSION = 0.0.0
 QT += quick core-private 
 

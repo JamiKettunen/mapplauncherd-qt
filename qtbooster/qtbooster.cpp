@@ -21,7 +21,11 @@
 #include "daemon.h"
 #include <QtGlobal>
 
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 const string QtBooster::m_boosterType = "qt5";
+#else
+const string QtBooster::m_boosterType = "qt6";
+#endif
 
 const string & QtBooster::boosterType() const
 {
